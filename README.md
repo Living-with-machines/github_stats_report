@@ -29,7 +29,7 @@ The report is made up of three parts:
 
 - [`report.ipynb`](report.ipynb) is a Jupyter notebook that uses a combination of [gh_orgstats](https://github.com/Living-with-machines/gh_orgstats), [Pandas](pandas.pydata.org/) and [Altair](altair-viz.github.io/) to print out some DataFrames and some more or less ugly charts. This notebook defines the report content and calls two methods in `gh_orgstats` that update the CSV files for clone and view stats. 
 
-- [`report.nbconvert.ipynb`](report.nbconvert.ipynb) is the executed output version of the above notebook. This execution happens using[nbconvert](https://github.com/jupyter/nbconvert) and GitHub actions. Again, see below for tedious detail. 
+- [`report.nbconvert.ipynb`](report.nbconvert.ipynb) is the executed output version of the above notebook. This execution happens using [nbconvert](https://github.com/jupyter/nbconvert) and GitHub actions. Again, see below for tedious detail. 
 
 - [`report.html`](docs/report.html) is an HTML version of the report which is generated using the output of `report.nbconvert.ipynb`. This HTML output only includes the notebook output, hiding the ugly code from the end-user. The rendered version of this report can be found at \# TOOD add link to rendered HTML
 
