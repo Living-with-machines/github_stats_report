@@ -66,4 +66,4 @@ When this action is triggered the following things happen:
 - executing the notebook also has the effect of updating our CSV files of traffic and clones data.
 - we commit these updated files back to the repository.
 
-If you already know how to use GitHub actions you can see the workflow for this in [report.yml](./github/workflows/report.yml). If you haven't come across GitHub actions before you can find an [annotated version](action_overview.md) of the workflow which explains the process. 
+If you already know how to use GitHub actions you can see the workflow for this in [report.yml](.github/workflows/report.yml). If you haven't come across GitHub actions before you can find an [annotated version](action_overview.md) of the workflow which explains the process. 
