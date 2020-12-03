@@ -27,7 +27,7 @@ You can find the view and clone data for public Living with Machines repositorie
 
 The report is made up of three parts:
 
-- [`report.ipynb`](report.ipynb) is a Jupyter notebook that uses a combination of [gh_orgstats]](https://github.com/Living-with-machines/gh_orgstats), [Pandas](pandas.pydata.org/) and [Altair](altair-viz.github.io/) to print out some DataFrames and some more or less ugly charts. This notebook defines the report content and calls two methods in `gh_orgstats` that update the CSV files for clone and view stats. 
+- [`report.ipynb`](report.ipynb) is a Jupyter notebook that uses a combination of [gh_orgstats](https://github.com/Living-with-machines/gh_orgstats), [Pandas](pandas.pydata.org/) and [Altair](altair-viz.github.io/) to print out some DataFrames and some more or less ugly charts. This notebook defines the report content and calls two methods in `gh_orgstats` that update the CSV files for clone and view stats. 
 
 - [`report.nbconvert.ipynb`](report.nbconvert.ipynb) is the executed output version of the above notebook. This execution happens using[nbconvert](https://github.com/jupyter/nbconvert) and GitHub actions. Again, see below for tedious detail. 
 
@@ -47,7 +47,7 @@ For the interested reader, this section outlines how the report is generated in 
 
 Jupyter notebooks are an excellent tool for generating reports. You can easily combine prose, statistics, and charts in one place. However, sharing reports in notebooks isn't suitable for all circumstances. The code cells used to define chart, or select data might be distracting for your non-coding colleagues. The code may also upset your colleagues who do code for different reasons. You may therefore want to hide the input cells in the notebook and only share the output cells.
 
-This is where [nbconvert]((https://github.com/jupyter/nbconvert) becomes useful. [nbconvert]((https://github.com/jupyter/nbconvert) allows you to convert notebooks between different formats, and optionally strip parts of the notebook out. nbconvert can convert notebooks into HTML, markdown, pdf etc. We can also use [nbconvert]((https://github.com/jupyter/nbconvert) to 'execute' a notebook. i.e. to run a notebook.
+This is where [nbconvert](https://github.com/jupyter/nbconvert) becomes useful. [nbconvert](https://github.com/jupyter/nbconvert) allows you to convert notebooks between different formats, and optionally strip parts of the notebook out. nbconvert can convert notebooks into HTML, markdown, pdf etc. We can also use [nbconvert](https://github.com/jupyter/nbconvert) to 'execute' a notebook. i.e. to run a notebook.
 
 In this example converting to HTML allows us to retain some of the interactivity of the notebooks whilst removing the need for a Python environment for the notebook to run in.
 
