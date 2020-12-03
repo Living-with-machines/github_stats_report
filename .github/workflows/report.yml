@@ -1,0 +1,34 @@
+name: Create Report
+on:
+  schedule: 
+    # runs once a week on Monday at 8 UTC 
+    - cron: "0 8 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-python@v1
+      with:
+        python-version: '3.6'
+        architecture: 'x64'
+        ref: 'traffic'
+    - name: Install library and other requirements
+      run: |
+        pip install jupyter nbconvert altair 
+        pip install git+https://github.com/Living-with-machines/gh_orgstats
+    - name: Execute report notebook
+      env:
+        GH_TOKEN:  ${{ secrets.GH_TOKEN }}
+      run: |
+         jupyter nbconvert --to notebook --execute report.ipynb
+         jupyter nbconvert --to html --TemplateExporter.exclude_input=True --no-prompt report.nbconvert.ipynb --output report.html
+         mv *.html docs/
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: Daniel van Strien
+        message: "Update GitHub traffic report"
+        add: "."
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
