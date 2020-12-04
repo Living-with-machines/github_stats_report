@@ -2,7 +2,7 @@ name: Create Report
 on:
   schedule: 
     # runs once a week on Monday at 8 UTC # TODO make cron weekly
-    - cron: "0 8 * * *" 
+    - cron: "0 8 * * 1" 
 jobs:
   build:
     runs-on: ubuntu-20.04
