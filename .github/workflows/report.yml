@@ -1,7 +1,7 @@
 name: Create Report
 on:
   schedule: 
-    # runs once a week on Monday at 8 UTC # TODO make cron weekly
+    # runs once a week on Monday at 8 UTC
     - cron: "0 8 * * 1" 
 jobs:
   build:
