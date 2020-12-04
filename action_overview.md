@@ -2,9 +2,9 @@
 
 This is in no way meant to be a tutorial on GitHub actions on which there are already some nice options available:
 
-- https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions
-- https://github.blog/2020-06-17-using-github-actions-for-mlops-data-science/
-- https://youtu.be/R8_veQiYBjI 
+- [Learn GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions) (official GitHub into)
+- [Using GitHub Actions for MLOps & Data Science](https://github.blog/2020-06-17-using-github-actions-for-mlops-data-science/) gives a nice overview of what Actions can be used for beyond the usual CI/CD use cases
+- [GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://youtu.be/R8_veQiYBjI) - youtube video
 
 Instead this page gives a walkthrough of the `report.yml` which is the way in which the report GitHub action is defined.
 
