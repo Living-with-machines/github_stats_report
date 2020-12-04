@@ -67,3 +67,6 @@ When this action is triggered the following things happen:
 - we commit these updated files back to the repository.
 
 If you already know how to use GitHub actions you can see the workflow for this in [report.yml](.github/workflows/report.yml). If you haven't come across GitHub actions before you can find an [annotated version](action_overview.md) of the workflow which explains the process. 
+
+
+> *Credit: This project, funded by the UK Research and Innovation (UKRI) Strategic Priority Fund, is a multidisciplinary collaboration delivered by the Arts and Humanities Research Council (AHRC), with The Alan Turing Institute, the British Library and the Universities of Cambridge, East Anglia, Exeter, and Queen Mary University of London.*
