@@ -35,7 +35,7 @@ The report is made up of three parts:
 
 ## Why
 
-Living with Machines is a research project funded by the [AHRC](https://ahrc.ukri.org/funding/research/) as part of the [UK Research and Innovation (UKRI](https://www.ukri.org/) Strategic Priority Fund. Research funders usually want to know that the money they have spent on a project is having an impact. One (very imperfect) way of assessing this is via 'usage stats'. Since capturing these stats can be a tedious process, this repository aims to automate some of the steps.
+Living with Machines is a research project funded by the [AHRC](https://ahrc.ukri.org/funding/research/) as part of the [UK Research and Innovation (UKRI](https://www.ukri.org/) Strategic Priority Fund. Research funders usually want to know that the money they have spent on a project is having an impact. One (very imperfect) way of assessing this is via 'usage stats'. Since capturing these stats can be a time consuming process, this repository aims to automate some of the steps.
 
 As a research project aiming to practice openness as far as possible, we decided to make these stats publicly available.
 
