@@ -8,7 +8,7 @@
 
 This repository automatically updates GitHub statistics data for the Living with Machines [GitHub Organization](https://github.com/Living-with-machines) and generates a report based on this data.
 
-Report link \ # TODO add link to report output
+A [rendered HTML version of the report](https://living-with-machines.github.io/github_stats_report/report.html), see below for how the report is generated and the data sources. 
 
 ## What
 
@@ -31,7 +31,7 @@ The report is made up of three parts:
 
 - [`report.nbconvert.ipynb`](report.nbconvert.ipynb) is the executed output version of the above notebook. This execution happens using [nbconvert](https://github.com/jupyter/nbconvert) and GitHub actions. Again, see below for tedious detail. 
 
-- [`report.html`](docs/report.html) is an HTML version of the report which is generated using the output of `report.nbconvert.ipynb`. This HTML output only includes the notebook output, hiding the ugly code from the end-user. The rendered version of this report can be found at \# TOOD add link to rendered HTML
+- [`report.html`](docs/report.html) is an HTML version of the report which is generated using the output of `report.nbconvert.ipynb`. This HTML output only includes the notebook output, hiding the ugly code from the end-user. GitHub pages is used to render the HTML, the rendered version can be found at [https://living-with-machines.github.io/github_stats_report/report.html]()
 
 ## Why
 
