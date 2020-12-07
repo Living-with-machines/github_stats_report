@@ -87,5 +87,5 @@ This final section commits the changed files back to GitHub so we have an upto d
 
  ```
 
-There is potential for many more steps, to run as part of GitHub actions. The [official docs](https://docs.github.com/en/free-pro-team@latest/actions) are an excellent place to start for further information. GitHub actions are often only used in CI/CD pipelines but can often be useful beyodn this use case. In particular, being bale to run on a schedule offers some nice opportunities for automation. 
+There is potential for many more steps, to run as part of GitHub actions. The [official docs](https://docs.github.com/en/free-pro-team@latest/actions) are an excellent place to start for further information. GitHub actions are often only used in CI/CD pipelines but can often be useful beyond this use case. In particular, being bale to run on a schedule offers some nice opportunities for automation. 
 
