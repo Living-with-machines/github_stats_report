@@ -1,6 +1,6 @@
 # Living with Machines GitHub Stats report
 
-![Create Report](https://github.com/davanstrien/lwm_github_stats_report/workflows/Create%20Report/badge.svg)
+[![Create Report](https://github.com/Living-with-machines/github_stats_report/actions/workflows/report.yml/badge.svg)](https://github.com/Living-with-machines/github_stats_report/actions/workflows/report.yml)
 
 > “Facts are stubborn things, but statistics are pliable.” ― Mark Twain (probably)
 
