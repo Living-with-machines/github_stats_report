@@ -1,5 +1,6 @@
 name: Create Report
 on:
+  workflow_dispatch:
   schedule: 
     # runs once a week on Monday at 8 UTC
     - cron: "0 8 * * 1" 
